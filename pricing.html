@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pricing — Bloomie</title>
+    <meta name="description" content="Start free and scale as you see results. Three Bloomie plans: Essential (free), Bloom Pro, and Clinical." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+
+<nav id="site-nav" class="site-nav" role="navigation" aria-label="Main navigation">
+    <a href="index.html" class="nav-logo" aria-label="Bloomie — home">Bloom<span>ie</span></a>
+    <button class="nav-toggle" onclick="toggleMenu()">☰</button>
+
+    <!-- BOTÓN IDIOMA -->
+    <button id="lang-btn" onclick="toggleLanguage()" class="lang-btn">EN</button>
+
+    <ul class="nav-links">
+        <li><a href="how-it-works.html" data-i18n="nav.how">How it works</a></li>
+        <li><a href="results.html" data-i18n="nav.results">Results</a></li>
+        <li><a href="features.html" data-i18n="nav.features">Features</a></li>
+        <li><a href="pricing.html" aria-current="page" data-i18n="nav.pricing">Pricing</a></li>
+        <li><a href="about.html" data-i18n="nav.about">About us</a></li>
+        <li><a href="#" data-i18n="nav.login">Log in</a></li>
+        <li><a href="pricing.html" class="nav-cta" data-i18n="nav.cta">Analyze my skin</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section id="pricing" aria-labelledby="pricing-title">
+
+        <div class="pricing-header reveal">
+            <span class="section-tag" data-i18n="pricing.tag">Pricing</span>
+            <h1 class="section-title" id="pricing-title">
+                Invest in your skin,<br />not in <em>uncertainty</em>
+            </h1>
+            <p class="section-sub" data-i18n="pricing.subtitle">
+                Three levels for every stage. Start free, scale as you see results.
+            </p>
+        </div>
+
+        <!-- Billing toggle -->
+        <div class="pricing-toggle reveal" aria-label="Billing selector">
+            <span class="toggle-label" data-i18n="toggle.monthly">Monthly</span>
+            <button class="toggle-btn" id="billing-toggle" aria-pressed="false" aria-label="Activate annual billing">
+                <span class="toggle-knob"></span>
+            </button>
+            <span class="toggle-label">
+            <span data-i18n="toggle.annual">Annual</span>
+            <span class="save-badge" data-i18n="toggle.save">Save 30%</span>
+          </span>
+        </div>
+
+        <!-- Plans -->
+        <div class="plans-grid reveal" role="list">
+
+            <!-- Starter Plan -->
+            <div class="plan-card" role="listitem" aria-label="Starter Plan">
+                <p class="plan-name" data-i18n="pricing.starter.name">Starter</p>
+                <div class="plan-price">$9</div>
+                <p class="plan-period" data-i18n="pricing.starter.period">per month · billed monthly</p>
+                <div class="plan-divider" aria-hidden="true"></div>
+                <ul class="plan-features" aria-label="Starter plan features">
+                    <li data-i18n="pricing.starter.f1">Up to 5 facial analyses per month</li>
+                    <li data-i18n="pricing.starter.f2">Basic skin diagnosis</li>
+                    <li data-i18n="pricing.starter.f3">General product and routine recommendations</li>
+                    <li data-i18n="pricing.starter.f4">Access to skincare content library</li>
+                    <li data-i18n="pricing.starter.f5">Store locator (no pricing data)</li>
+                    <li data-i18n="pricing.starter.f6">Basic chatbot (FAQ)</li>
+                    <li data-i18n="pricing.starter.f7">Limited history (last 3 analyses)</li>
+                    <li class="off" data-i18n="pricing.starter.f8">No dermatologist access</li>
+                </ul>
+                <button class="btn-plan" data-i18n="pricing.starter.cta">Get started</button>
+            </div>
+
+            <!-- Advanced Plan (FEATURED) -->
+            <div class="plan-card featured" role="listitem" aria-label="Advanced Plan — most popular">
+                <div class="plan-badge" aria-hidden="true" data-i18n="pricing.badge">Most popular</div>
+                <p class="plan-name" data-i18n="pricing.advanced.name">Advanced</p>
+                <div class="plan-price">$19</div>
+                <p class="plan-period" data-i18n="pricing.advanced.period">per month · billed monthly</p>
+                <div class="plan-divider" aria-hidden="true"></div>
+                <ul class="plan-features" aria-label="Advanced plan features">
+                    <li data-i18n="pricing.advanced.f1">Unlimited facial analysis</li>
+                    <li data-i18n="pricing.advanced.f2">AI-generated personalized routines</li>
+                    <li data-i18n="pricing.advanced.f3">Full skin history tracking</li>
+                    <li data-i18n="pricing.advanced.f4">Progress comparison with metrics</li>
+                    <li data-i18n="pricing.advanced.f5">Real-time product pricing map</li>
+                    <li data-i18n="pricing.advanced.f6">Access to dermatologist directory</li>
+                    <li data-i18n="pricing.advanced.f7">Smart chatbot with memory</li>
+                </ul>
+                <button class="btn-plan feat" data-i18n="pricing.advanced.cta">Start now →</button>
+            </div>
+
+            <!-- Elite Plan -->
+            <div class="plan-card" role="listitem" aria-label="Elite Plan">
+                <p class="plan-name" data-i18n="pricing.elite.name">Elite</p>
+                <div class="plan-price">$39</div>
+                <p class="plan-period" data-i18n="pricing.elite.period">per month · billed monthly</p>
+                <div class="plan-divider" aria-hidden="true"></div>
+                <ul class="plan-features" aria-label="Elite plan features">
+                    <li data-i18n="pricing.elite.f1">Priority dermatologist consultations</li>
+                    <li data-i18n="pricing.elite.f2">Exportable clinical reports</li>
+                    <li data-i18n="pricing.elite.f3">Dynamic routines (weather & UV adapted)</li>
+                    <li data-i18n="pricing.elite.f4">Smart notifications and alerts</li>
+                    <li data-i18n="pricing.elite.f5">Priority support (digital concierge)</li>
+                    <li data-i18n="pricing.elite.f6">Advanced monitoring (future IoT integration)</li>
+                </ul>
+                <button class="btn-plan" data-i18n="pricing.elite.cta">Go Elite</button>
+            </div>
+
+        </div>
+
+        <p class="pricing-note reveal" data-i18n="pricing.note">
+            ✓ No credit card required for the free plan · ✓ Cancel anytime · ✓ 14-day guarantee
+        </p>
+
+    </section>
+</main>
+
+<footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+        <div class="footer-brand">Bloom<span>ie</span></div>
+        <nav class="footer-nav" aria-label="Secondary navigation">
+            <a href="how-it-works.html" data-i18n="footer.how">How it works</a>
+            <a href="features.html" data-i18n="footer.features">Features</a>
+            <a href="pricing.html" data-i18n="footer.pricing">Pricing</a>
+            <a href="about.html" data-i18n="footer.about">About</a>
+        </nav>
+        <div class="footer-legal">
+            <a href="#" data-i18n="footer.privacy">Privacy</a>
+            <a href="#" data-i18n="footer.terms">Terms</a>
+        </div>
+    </div>
+    <p class="footer-copy">© 2026 Bloomie</p>
+</footer>
+
+<script src="js/i18n.js"></script>
+</body>
+</html>
