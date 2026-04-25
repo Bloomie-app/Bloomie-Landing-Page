@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Results — Bloomie</title>
+    <meta name="description" content="Real data from real users. 89% reduced acne marks in less than 8 weeks with their personalized Bloomie routine." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+
+    <nav id="site-nav" class="site-nav" role="navigation" aria-label="Main navigation">
+      <a href="index.html" class="nav-logo" aria-label="Bloomie — home">Bloom<span>ie</span></a>
+      <button class="nav-toggle" onclick="toggleMenu()">☰</button>
+
+      <!-- BOTÓN IDIOMA -->
+      <button id="lang-btn" onclick="toggleLanguage()" class="lang-btn">EN</button> 
+
+      <ul class="nav-links">
+        <li><a href="how-it-works.html" data-i18n="nav.how">How it works</a></li>
+        <li><a href="results.html" aria-current="page" data-i18n="nav.results">Results</a></li>
+        <li><a href="features.html" data-i18n="nav.features">Features</a></li>
+        <li><a href="pricing.html" data-i18n="nav.pricing">Pricing</a></li>
+        <li><a href="about.html" data-i18n="nav.about">About us</a></li>
+        <li><a href="#" data-i18n="nav.login">Log in</a></li>
+        <li><a href="pricing.html" class="nav-cta" data-i18n="nav.cta">Analyze my skin</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="results" aria-labelledby="results-title">
+        <div class="results-layout">
+
+          <!-- Left: stats -->
+          <div class="reveal">
+            <span class="section-tag" data-i18n="results.tag">Results</span>
+            <h1 class="section-title" id="results-title">
+              Real data.<br />Skins that <em>flourished</em>.
+            </h1>
+            <p class="section-sub" data-i18n="results.subtitle">
+              No marketing. No Photoshop. Metrics from real users who followed their Bloomie routine.
+            </p>
+
+            <div class="results-stats" role="list" aria-label="Results statistics">
+              <div class="stat-card" role="listitem">
+                <div class="stat-icon" aria-hidden="true">💧</div>
+                <div class="stat-val">89%</div>
+                <p class="stat-desc" data-i18n="results.stat1">reduced acne marks in less than 8 weeks</p>
+              </div>
+              <div class="stat-card" role="listitem">
+                <div class="stat-icon" aria-hidden="true">🌟</div>
+                <div class="stat-val">4.8</div>
+                <p class="stat-desc" data-i18n="results.stat2">average satisfaction score (out of 5)</p>
+              </div>
+              <div class="stat-card" role="listitem">
+                <div class="stat-icon" aria-hidden="true">💸</div>
+                <div class="stat-val">3×</div>
+                <p class="stat-desc" data-i18n="results.stat3">more effective than generic routines</p>
+              </div>
+              <div class="stat-card" role="listitem">
+                <div class="stat-icon" aria-hidden="true">⏱️</div>
+                <div class="stat-val">12 weeks</div>
+                <p class="stat-desc" data-i18n="results.stat4">average for deep transformation</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: testimonials -->
+          <div class="testimonials-col reveal" aria-label="User testimonials">
+            <article class="tcard">
+              <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <p class="tcard-text" data-i18n="results.t1.text">
+                "I spent 4 years trying products without knowing why they didn't work. Bloomie told me exactly what I had and what I needed. In 6 weeks I saw a real difference."
+              </p>
+              <div class="tcard-author">
+                <div class="tcard-avatar" aria-hidden="true">MG</div>
+                <div>
+                  <p class="tcard-name">Mariana García</p>
+                  <p class="tcard-role" data-i18n="results.t1.role">Premium User · Mexico City</p>
+                </div>
+              </div>
+            </article>
+
+            <article class="tcard">
+              <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <p class="tcard-text" data-i18n="results.t2.text">
+                "What surprised me the most was that it detected hyperpigmentation I hadn't even noticed. The weekly follow-up motivates me to stick to the routine."
+              </p>
+              <div class="tcard-author">
+                <div class="tcard-avatar" aria-hidden="true">CR</div>
+                <div>
+                  <p class="tcard-name">Camila Rodríguez</p>
+                  <p class="tcard-role" data-i18n="results.t2.role">Clinical Plan · Bogotá</p>
+                </div>
+              </div>
+            </article>
+
+            <article class="tcard">
+              <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <p class="tcard-text" data-i18n="results.t3.text">
+                "As a dermatologist, I was skeptical. But the precision of the analysis is impressive. I now recommend Bloomie to patients between consultations."
+              </p>
+              <div class="tcard-author">
+                <div class="tcard-avatar" aria-hidden="true">DM</div>
+                <div>
+                  <p class="tcard-name">Dr. Diana Molina</p>
+                  <p class="tcard-role" data-i18n="results.t3.role">Dermatologist · Lima</p>
+                </div>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="footer-inner">
+        <div class="footer-brand">Bloom<span>ie</span></div>
+        <nav class="footer-nav" aria-label="Secondary navigation">
+          <a href="how-it-works.html" data-i18n="footer.how">How it works</a>
+          <a href="features.html" data-i18n="footer.features">Features</a>
+          <a href="pricing.html" data-i18n="footer.pricing">Pricing</a>
+          <a href="about.html" data-i18n="footer.about">About</a>
+        </nav>
+        <div class="footer-legal">
+          <a href="#" data-i18n="footer.privacy">Privacy</a>
+          <a href="#" data-i18n="footer.terms">Terms</a>
+        </div>
+      </div>
+      <p class="footer-copy">© 2026 Bloomie</p>
+    </footer>
+
+    <script src="js/i18n.js"></script>
+  </body>
+</html>
