@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bloomie — AI Skin Analysis & Personalized Skincare</title>
+    <meta name="description" content="AI-powered skin analysis that detects acne, spots, and texture to create your personalized skincare routine." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://bloomie.app/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bloomie.app/" />
+    <meta property="og:title" content="Bloomie — AI Skin Analysis" />
+    <meta property="og:description" content="Upload a photo and get a personalized skincare routine powered by AI." />
+    <meta property="og:image" content="https://bloomie.app/assets/og-cover.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Bloomie — AI Skin Analysis" />
+    <meta name="twitter:description" content="Smarter skincare powered by AI." />
+    <meta name="twitter:image" content="https://bloomie.app/assets/og-cover.jpg" />
+    <link rel="icon" href="assets/favicon.ico" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+
+    <nav id="site-nav" class="site-nav" role="navigation" aria-label="Main navigation">
+      <a href="index.html" class="nav-logo" aria-label="Bloomie — home">Bloom<span>ie</span></a>
+      <button class="nav-toggle" onclick="toggleMenu()">☰</button>
+
+      <!-- BOTÓN IDIOMA -->
+      <button id="lang-btn" onclick="toggleLanguage()" class="lang-btn">EN</button>
+
+      <ul class="nav-links">
+        <li><a href="how-it-works.html" data-i18n="nav.how">How it works</a></li>
+        <li><a href="results.html" data-i18n="nav.results">Results</a></li>
+        <li><a href="features.html" data-i18n="nav.features">Features</a></li>
+        <li><a href="pricing.html" data-i18n="nav.pricing">Pricing</a></li>
+        <li><a href="about.html" data-i18n="nav.about">About us</a></li>
+        <li><a href="#" data-i18n="nav.login">Log in</a></li>
+        <li><a href="pricing.html" class="nav-cta" data-i18n="nav.cta">Analyze my skin</a></li>
+      </ul>
+    </nav>
+
+    <section id="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="hero-eyebrow" role="note" data-i18n="hero.eyebrow">Clinical AI skin analysis</div>
+
+        <h1 class="hero-h1" id="hero-title">
+          Your skin deserves<br />more than a<br /><em>questionnaire</em>
+        </h1>
+
+        <p class="hero-sub" data-i18n="hero.sub">
+          Bloomie scans your face with computer vision, detects acne, spots, and texture with clinical precision, and delivers the exact routine your skin needs.
+        </p>
+
+        <div class="hero-actions">
+          <a href="pricing.html" class="btn-primary" data-i18n="hero.cta">✦ Analyze your skin for free</a>
+          <a href="how-it-works.html" class="btn-ghost" data-i18n="hero.secondary">How it works →</a>
+        </div>
+
+        <div class="hero-trust" aria-label="Trust metrics">
+          <div class="trust-item">
+            <span class="trust-num">97%</span>
+            <span class="trust-label" data-i18n="hero.trust1">Diagnostic accuracy</span>
+          </div>
+          <div class="trust-item">
+            <span class="trust-num">42K+</span>
+            <span class="trust-label" data-i18n="hero.trust2">Skins analyzed</span>
+          </div>
+          <div class="trust-item">
+            <span class="trust-num">8 weeks</span>
+            <span class="trust-label" data-i18n="hero.trust3">Visible results</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="AI-powered facial scan">
+        <div class="scan-scene">
+          <div class="corner corner-tl" aria-hidden="true"></div>
+          <div class="corner corner-tr" aria-hidden="true"></div>
+          <div class="corner corner-bl" aria-hidden="true"></div>
+          <div class="corner corner-br" aria-hidden="true"></div>
+          <div class="scan-grid" aria-hidden="true"></div>
+          <div class="scan-beam" aria-hidden="true"></div>
+          <img src="assets/scanner.png" alt="AI-powered facial analysis" style="width:100%;height:100%;object-fit:cover;border-radius:18px;" />
+          <div class="atag atag-hydra" aria-label="Hydration: 82%">
+            <span class="atag-dot" style="background:var(--sage)" aria-hidden="true"></span>
+            <span data-i18n="hero.tag.hydration">Hydration</span> <span class="atag-val">82%</span>
+          </div>
+          <div class="atag atag-acne" aria-label="Mild acne detected">
+            <span class="atag-dot" style="background:var(--rose)" aria-hidden="true"></span>
+            <span data-i18n="hero.tag.acne">Mild acne</span>
+            <span class="atag-val" style="color:var(--rose)">•••</span>
+          </div>
+          <div class="atag atag-tex" aria-label="Even texture">
+            <span class="atag-dot" style="background:var(--gold)" aria-hidden="true"></span>
+            <span data-i18n="hero.tag.texture">Texture</span>
+            <span class="atag-val" style="color:var(--gold)" data-i18n="hero.tag.even">Even</span>
+          </div>
+          <div class="score-ring" role="status" aria-label="Skin score: 87 out of 100">
+            <div>
+              <div class="ring-label" data-i18n="hero.score.label">Score of skin</div>
+              <div class="ring-val">87</div>
+              <div class="ring-sub" data-i18n="hero.score.sub">out of 100</div>
+            </div>
+            <svg width="44" height="44" viewBox="0 0 44 44" aria-hidden="true">
+              <circle cx="22" cy="22" r="18" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="3" />
+              <circle cx="22" cy="22" r="18" fill="none" stroke="#C4826A" stroke-width="3" stroke-dasharray="98 15" stroke-dashoffset="28" stroke-linecap="round" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="footer-inner">
+        <div class="footer-brand">Bloom<span>ie</span></div>
+        <nav class="footer-nav" aria-label="Secondary navigation">
+          <a href="how-it-works.html" data-i18n="footer.how">How it works</a>
+          <a href="features.html" data-i18n="footer.features">Features</a>
+          <a href="pricing.html" data-i18n="footer.pricing">Pricing</a>
+          <a href="about.html" data-i18n="footer.about">About</a>
+        </nav>
+        <div class="footer-legal">
+          <a href="#" data-i18n="footer.privacy">Privacy</a>
+          <a href="#" data-i18n="footer.terms">Terms</a>
+        </div>
+      </div>
+      <p class="footer-copy">© 2026 Bloomie</p>
+    </footer>
+
+    <script src="js/i18n.js"></script>
+  </body>
+</html>

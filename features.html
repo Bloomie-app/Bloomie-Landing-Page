@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Features — Bloomie</title>
+
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+
+  <body>
+    <!-- NAV -->
+    <nav id="site-nav" class="site-nav">
+      <a href="index.html" class="nav-logo">Bloom<span>ie</span></a>
+
+      <button class="nav-toggle" onclick="toggleMenu()">☰</button>
+
+      <button id="lang-btn" onclick="toggleLanguage()" class="lang-btn">EN</button>
+
+      <ul class="nav-links">
+        <li><a href="how-it-works.html" data-i18n="nav.how">How it works</a></li>
+        <li><a href="results.html" data-i18n="nav.results">Results</a></li>
+        <li><a href="features.html" data-i18n="nav.features">Features</a></li>
+        <li><a href="pricing.html" data-i18n="nav.pricing">Pricing</a></li>
+        <li><a href="about.html" data-i18n="nav.about">About us</a></li>
+        <li><a href="#" data-i18n="nav.login">Log in</a></li>
+        <li><a href="pricing.html" class="nav-cta" data-i18n="nav.cta">Analyze my skin</a></li>
+      </ul>
+    </nav>
+
+    <!-- FEATURES -->
+    <main>
+      <section id="features">
+
+        <div class="features-header">
+          <!-- ESTE LO DEJO FIJO PARA NO ROMPER EL <br> -->
+          <span class="section-tag">Features</span>
+
+          <h1 class="section-title">
+            Everything your skin<br />
+            needs, <em>in one place</em>
+          </h1>
+
+          <p class="section-sub" data-i18n="features.subtitle">
+            You are not a questionnaire. Your skin deserves a complete ecosystem.
+          </p>
+        </div>
+
+        <div class="features-grid">
+
+          <article class="feat-card">
+            <div class="feat-icon">🤖</div>
+            <h2 class="feat-title" data-i18n="features.ai.title">
+              Multi-layer AI analysis
+            </h2>
+            <p class="feat-desc" data-i18n="features.ai.desc">
+              Computer Vision trained with over 2M dermatological images.
+              Detects 12+ conditions with clinical precision.
+            </p>
+            <span class="feat-tag" data-i18n="features.ai.tag">
+              Machine Learning
+            </span>
+          </article>
+
+          <article class="feat-card">
+            <div class="feat-icon">📊</div>
+            <h2 class="feat-title" data-i18n="features.dashboard.title">
+              Progress dashboard
+            </h2>
+            <p class="feat-desc" data-i18n="features.dashboard.desc">
+              Visualize your progress week by week. Compare before/after photos with AI overlays and clear graphs.
+            </p>
+            <span class="feat-tag" data-i18n="features.dashboard.tag">
+              Continuous tracking
+            </span>
+          </article>
+
+          <article class="feat-card">
+            <div class="feat-icon">🧴</div>
+            <h2 class="feat-title" data-i18n="features.routine.title">
+              Personalized AM/PM routine
+            </h2>
+            <p class="feat-desc" data-i18n="features.routine.desc">
+              Steps ordered, active ingredients recommended, usage times.
+              Your routine is unique, like your skin.
+            </p>
+            <span class="feat-tag" data-i18n="features.routine.tag">
+              Hyper-personalization
+            </span>
+          </article>
+
+          <article class="feat-card">
+            <div class="feat-icon">🗺️</div>
+            <h2 class="feat-title" data-i18n="features.geo.title">
+              Product geolocation
+            </h2>
+            <p class="feat-desc" data-i18n="features.geo.desc">
+              Find exactly where to buy what you need. Pharmacies, stores,
+              and e-commerce in your area.
+            </p>
+            <span class="feat-tag" data-i18n="features.geo.tag">
+              Complete ecosystem
+            </span>
+          </article>
+
+          <article class="feat-card">
+            <div class="feat-icon">👩‍⚕️</div>
+            <h2 class="feat-title" data-i18n="features.derm.title">
+              Dermatology access
+            </h2>
+            <p class="feat-desc" data-i18n="features.derm.desc">
+              When the AI detects conditions requiring professional attention,
+              it connects you with certified dermatologists.
+            </p>
+            <span class="feat-tag" data-i18n="features.derm.tag">
+              Integrated medical network
+            </span>
+          </article>
+
+          <article class="feat-card">
+            <div class="feat-icon">🔔</div>
+            <h2 class="feat-title" data-i18n="features.reminders.title">
+              Smart reminders
+            </h2>
+            <p class="feat-desc" data-i18n="features.reminders.desc">
+              The habit is 90% of the result. Bloomie reminds you when to apply
+              each product and do your check-in.
+            </p>
+            <span class="feat-tag" data-i18n="features.reminders.tag">
+              Adherence + habit
+            </span>
+          </article>
+
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="footer-inner">
+
+        <div class="footer-brand">Bloom<span>ie</span></div>
+
+        <nav class="footer-nav">
+          <a href="how-it-works.html" data-i18n="footer.how">How it works</a>
+          <a href="features.html" data-i18n="footer.features">Features</a>
+          <a href="pricing.html" data-i18n="footer.pricing">Pricing</a>
+          <a href="about.html" data-i18n="footer.about">About</a>
+        </nav>
+
+        <div class="footer-legal">
+          <a href="#" data-i18n="footer.privacy">Privacy</a>
+          <a href="#" data-i18n="footer.terms">Terms</a>
+        </div>
+
+      </div>
+
+      <p class="footer-copy">© 2026 Bloomie</p>
+    </footer>
+
+    <script src="js/i18n.js"></script>
+  </body>
+</html>

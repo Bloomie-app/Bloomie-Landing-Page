@@ -1,0 +1,153 @@
+{
+  "nav.how": "How it works",
+  "nav.results": "Results",
+  "nav.features": "Features",
+  "nav.pricing": "Pricing",
+  "nav.about": "About us",
+  "nav.login": "Log in",
+  "nav.cta": "Analyze my skin",
+
+  "hero.title": "Your skin deserves more than a questionnaire",
+  "hero.subtitle": "Bloomie scans your face and builds a personalized routine",
+
+  "features.title": "Everything your skin needs in one place",
+  "features.subtitle": "Your skin deserves a complete ecosystem",
+
+  "features.ai.title": "Multi-layer AI analysis",
+  "features.ai.desc": "Computer Vision trained with over 2M dermatological images.",
+  "features.ai.tag": "Machine Learning",
+
+  "features.dashboard.title": "Progress dashboard",
+  "features.dashboard.desc": "Visualize your progress week by week.",
+  "features.dashboard.tag": "Continuous tracking",
+
+  "features.routine.title": "Personalized AM/PM routine",
+  "features.routine.desc": "Steps ordered and tailored to your skin.",
+  "features.routine.tag": "Hyper-personalization",
+
+  "features.geo.title": "Product geolocation",
+  "features.geo.desc": "Find exactly where to buy what you need.",
+  "features.geo.tag": "Complete ecosystem",
+
+  "features.derm.title": "Dermatology access",
+  "features.derm.desc": "Connect with certified dermatologists when needed.",
+  "features.derm.tag": "Medical network",
+
+  "features.reminders.title": "Smart reminders",
+  "features.reminders.desc": "Bloomie reminds you when to apply each product.",
+  "features.reminders.tag": "Adherence + habit",
+
+  "how.tag": "How it works",
+  "how.subtitle": "No appointments. No waiting. No generic diagnoses.",
+
+  "how.step1.title": "Create your profile",
+  "how.step1.desc": "Register in 30 seconds. Your age and lifestyle help the AI.",
+  "how.step1.badge": "30 seconds",
+
+  "how.step2.title": "Upload your photo",
+  "how.step2.desc": "Take a selfie with good light.",
+  "how.step2.badge": "Real-time selfie",
+
+  "how.step3.title": "AI analyzes your skin",
+  "how.step3.desc": "Detects multiple skin conditions.",
+  "how.step3.badge": "Multi-layer analysis",
+
+  "how.step4.title": "Receive your routine",
+  "how.step4.desc": "Personalized AM/PM routine.",
+  "how.step4.badge": "AM + PM",
+
+  "how.step5.title": "Find the products",
+  "how.step5.desc": "Locate products near you.",
+  "how.step5.badge": "Geo + products",
+
+  "how.step6.title": "Measure your evolution",
+  "how.step6.desc": "Track your progress over time.",
+  "how.step6.badge": "Tracking",
+
+  "results.title": "Real data. Skins that improved",
+
+  "pricing.title": "Invest in your skin, not in uncertainty",
+  "toggle.monthly": "Monthly",
+  "toggle.annual": "Annual",
+
+  "about.title": "About us",
+
+  "footer.how": "How it works",
+  "footer.features": "Features",
+  "footer.pricing": "Pricing",
+  "footer.about": "About",
+  "footer.privacy": "Privacy",
+  "footer.terms": "Terms",
+
+  "results.tag": "Results",
+  "results.subtitle": "No marketing. No Photoshop. Metrics from real users who followed their Bloomie routine.",
+  "results.stat1": "reduced acne marks in less than 8 weeks",
+  "results.stat2": "average satisfaction score (out of 5)",
+  "results.stat3": "more effective than generic routines",
+  "results.stat4": "average for deep transformation",
+  "results.t1.text": "\"I spent 4 years trying products without knowing why they didn't work. Bloomie told me exactly what I had and what I needed. In 6 weeks I saw a real difference.\"",
+  "results.t1.role": "Premium User · Mexico City",
+  "results.t2.text": "\"What surprised me the most was that it detected hyperpigmentation I hadn't even noticed. The weekly follow-up motivates me to stick to the routine.\"",
+  "results.t2.role": "Clinical Plan · Bogotá",
+  "results.t3.text": "\"As a dermatologist, I was skeptical. But the precision of the analysis is impressive. I now recommend Bloomie to patients between consultations.\"",
+  "results.t3.role": "Dermatologist · Lima",
+
+  "pricing.tag": "Pricing",
+  "pricing.subtitle": "Three levels for every stage. Start free, scale as you see results.",
+  "pricing.badge": "Most popular",
+  "toggle.save": "Save 30%",
+
+  "pricing.starter.name": "Starter",
+  "pricing.starter.period": "per month · billed monthly",
+  "pricing.starter.f1": "Up to 5 facial analyses per month",
+  "pricing.starter.f2": "Basic skin diagnosis",
+  "pricing.starter.f3": "General product and routine recommendations",
+  "pricing.starter.f4": "Access to skincare content library",
+  "pricing.starter.f5": "Store locator (no pricing data)",
+  "pricing.starter.f6": "Basic chatbot (FAQ)",
+  "pricing.starter.f7": "Limited history (last 3 analyses)",
+  "pricing.starter.f8": "No dermatologist access",
+  "pricing.starter.cta": "Get started",
+
+  "pricing.advanced.name": "Advanced",
+  "pricing.advanced.period": "per month · billed monthly",
+  "pricing.advanced.f1": "Unlimited facial analysis",
+  "pricing.advanced.f2": "AI-generated personalized routines",
+  "pricing.advanced.f3": "Full skin history tracking",
+  "pricing.advanced.f4": "Progress comparison with metrics",
+  "pricing.advanced.f5": "Real-time product pricing map",
+  "pricing.advanced.f6": "Access to dermatologist directory",
+  "pricing.advanced.f7": "Smart chatbot with memory",
+  "pricing.advanced.cta": "Start now →",
+
+  "pricing.elite.name": "Elite",
+  "pricing.elite.period": "per month · billed monthly",
+  "pricing.elite.f1": "Priority dermatologist consultations",
+  "pricing.elite.f2": "Exportable clinical reports",
+  "pricing.elite.f3": "Dynamic routines (weather & UV adapted)",
+  "pricing.elite.f4": "Smart notifications and alerts",
+  "pricing.elite.f5": "Priority support (digital concierge)",
+  "pricing.elite.f6": "Advanced monitoring (future IoT integration)",
+  "pricing.elite.cta": "Go Elite",
+
+  "pricing.note": "✓ No credit card required for the free plan · ✓ Cancel anytime · ✓ 14-day guarantee",
+
+  "about.tag": "Team · About us",
+  "about.subtitle": "The team behind Bloomie",
+  "about.desc": "At Bloomie, we believe that healthy skin builds confidence. That's why our team works to create a tool that understands you and helps you shine every day.",
+  "about.role.cofounder": "Co-Founder",
+
+  "hero.eyebrow": "Clinical AI skin analysis",
+  "hero.sub": "Bloomie scans your face with computer vision, detects acne, spots, and texture with clinical precision, and delivers the exact routine your skin needs.",
+  "hero.cta": "✦ Analyze your skin for free",
+  "hero.secondary": "How it works →",
+  "hero.trust1": "Diagnostic accuracy",
+  "hero.trust2": "Skins analyzed",
+  "hero.trust3": "Visible results",
+  "hero.tag.hydration": "Hydration",
+  "hero.tag.acne": "Mild acne",
+  "hero.tag.texture": "Texture",
+  "hero.tag.even": "Even",
+  "hero.score.label": "Score of skin",
+  "hero.score.sub": "out of 100"
+}
