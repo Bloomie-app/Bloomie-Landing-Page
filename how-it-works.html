@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How it works — Bloomie</title>
+
+    <link rel="stylesheet" href="/css/styles.css"/>
+  </head>
+
+  <body>
+    <!-- NAV -->
+    <nav id="site-nav" class="site-nav">
+      <a href="index.html" class="nav-logo">Bloom<span>ie</span></a>
+
+      <button class="nav-toggle" onclick="toggleMenu()">☰</button>
+
+      <!-- BOTÓN IDIOMA -->
+      <button id="lang-btn" onclick="toggleLanguage()" class="lang-btn">EN</button>
+
+      <ul class="nav-links">
+        <li><a href="how-it-works.html" data-i18n="nav.how">How it works</a></li>
+        <li><a href="results.html" data-i18n="nav.results">Results</a></li>
+        <li><a href="features.html" data-i18n="nav.features">Features</a></li>
+        <li><a href="pricing.html" data-i18n="nav.pricing">Pricing</a></li>
+        <li><a href="about.html" data-i18n="nav.about">About us</a></li>
+        <li><a href="#" data-i18n="nav.login">Log in</a></li>
+        <li><a href="pricing.html" class="nav-cta" data-i18n="nav.cta">Analyze my skin</a></li>
+      </ul>
+    </nav>
+
+    <!-- HOW -->
+    <main>
+      <section id="how">
+
+        <div class="how-header reveal">
+          <span class="section-tag" data-i18n="how.tag">How it works</span>
+
+          <!-- dejamos este fijo por <br> y <em> -->
+          <h1 class="section-title">
+            From selfie to routine<br />in under <em>60 seconds</em>
+          </h1>
+
+          <p class="section-sub" data-i18n="how.subtitle">
+            No appointments. No waiting. No generic diagnoses.
+          </p>
+        </div>
+
+        <!-- ROW 1 -->
+        <div class="steps-container reveal">
+
+          <div class="steps-connector"></div>
+
+          <div class="step">
+            <div class="step-num">1</div>
+            <span class="step-icon">👤</span>
+            <h2 class="step-title" data-i18n="how.step1.title">
+              Create your profile
+            </h2>
+            <p class="step-desc" data-i18n="how.step1.desc">
+              Register in 30 seconds. Your age, lifestyle and concerns give the context that the AI needs.
+            </p>
+            <span class="step-badge" data-i18n="how.step1.badge">
+              30 seconds
+            </span>
+          </div>
+
+          <div class="step">
+            <div class="step-num">2</div>
+            <span class="step-icon">📸</span>
+            <h2 class="step-title" data-i18n="how.step2.title">
+              Upload your photo
+            </h2>
+            <p class="step-desc" data-i18n="how.step2.desc">
+              Take a selfie with good light. Our capture guide ensures the perfect angle for analysis.
+            </p>
+            <span class="step-badge" data-i18n="how.step2.badge">
+              Real-time selfie
+            </span>
+          </div>
+
+          <div class="step">
+            <div class="step-num">3</div>
+            <span class="step-icon">🤖</span>
+            <h2 class="step-title" data-i18n="how.step3.title">
+              AI analyzes your skin
+            </h2>
+            <p class="step-desc" data-i18n="how.step3.desc">
+              Our model detects over 12 skin conditions.
+            </p>
+            <span class="step-badge" data-i18n="how.step3.badge">
+              Multi-layer analysis
+            </span>
+          </div>
+
+        </div>
+
+        <!-- ROW 2 -->
+        <div class="steps-row2 reveal">
+
+          <div class="steps-connector"></div>
+
+          <div class="step">
+            <div class="step-num">4</div>
+            <span class="step-icon">🧴</span>
+            <h2 class="step-title" data-i18n="how.step4.title">
+              Receive your routine
+            </h2>
+            <p class="step-desc" data-i18n="how.step4.desc">
+              AM/PM personalized with prioritized steps.
+            </p>
+            <span class="step-badge" data-i18n="how.step4.badge">
+              AM + PM personalized
+            </span>
+          </div>
+
+          <div class="step">
+            <div class="step-num">5</div>
+            <span class="step-icon">🗺️</span>
+            <h2 class="step-title" data-i18n="how.step5.title">
+              Find the products
+            </h2>
+            <p class="step-desc" data-i18n="how.step5.desc">
+              Each ingredient is mapped to real products.
+            </p>
+            <span class="step-badge" data-i18n="how.step5.badge">
+              Real products + geo
+            </span>
+          </div>
+
+          <div class="step">
+            <div class="step-num">6</div>
+            <span class="step-icon">📈</span>
+            <h2 class="step-title" data-i18n="how.step6.title">
+              Measure your evolution
+            </h2>
+            <p class="step-desc" data-i18n="how.step6.desc">
+              Weekly check-in and progress tracking.
+            </p>
+            <span class="step-badge" data-i18n="how.step6.badge">
+              Visual tracking
+            </span>
+          </div>
+
+        </div>
+
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="footer-inner">
+
+        <div class="footer-brand">Bloom<span>ie</span></div>
+
+        <nav class="footer-nav">
+          <a href="how-it-works.html" data-i18n="footer.how">How it works</a>
+          <a href="features.html" data-i18n="footer.features">Features</a>
+          <a href="pricing.html" data-i18n="footer.pricing">Pricing</a>
+          <a href="about.html" data-i18n="footer.about">About</a>
+        </nav>
+
+        <div class="footer-legal">
+          <a href="#" data-i18n="footer.privacy">Privacy</a>
+          <a href="#" data-i18n="footer.terms">Terms</a>
+        </div>
+
+      </div>
+
+      <p class="footer-copy">© 2026 Bloomie</p>
+    </footer>
+
+    <!-- IMPORTANTE -->
+    <script src="js/i18n.js"></script>
+
+  </body>
+</html>
